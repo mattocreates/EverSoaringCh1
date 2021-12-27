@@ -1,3 +1,2 @@
-# Ever Soaring
-## Chapter One
+# Ever Soaring, Chapter One
 An interactive novel in the Warhammer 40k setting.
