@@ -19,9 +19,9 @@ Then, without any fanfare, there is [[light.-&gt;Sight]]</tw-passagedata><tw-pas
 
 Pain, and a pure, all-consuming //rage//.
 
-Soft outlines begin to resolve as the light dims, and you become aware of movement directly ahead. You force yourself into the present moment, pushing all other thoughts aside, and just like that everything snaps into focus.
+Soft outlines begin to resolve as the light dims and you become aware of movement directly ahead. You force yourself into the present moment, pushing all other thoughts aside, and just like that everything snaps into focus.
 
-There&#39;s a man standing in front of you, left leg forward, braced in a fighting stance. He&#39;s wearing a dark-grey guard&#39;s uniform that you know you should recognize. Aside from a hard hat and face-visor, he&#39;s entirely unarmored. Through the clear visor you see panic on a face unmarked by the ravages of time.
+There&#39;s a man standing in front of you, left leg forward, braced in a fighting stance. He&#39;s wearing a dark-grey guard&#39;s uniform that you know you should recognize. Aside from a hard hat and face-visor he&#39;s entirely unarmored. Through the clear visor you see panicked eyes above flushed cheeks and a smooth, unblemished chin.
 
 According to the tag on his chest, the guard&#39;s name is Farin.
 
@@ -32,7 +32,7 @@ Further movement draws your eye down to the powered truncheon held in Farin&#39;
 
 (set: $DodgeTruncheon to false, $TakeTruncheon to false, $BloodyFingersLeft to false, $GrabWrist to false, $CrushWrist to 0, $FarinFalls to false, $SniperAdvantage to 0, $SniperAlive to true, $StabSniper to false, $PunchSniper to false, $KickSniper to false, $SecondGuardAlive to true, $ThirdGuardAlive to true, $LookAround to false)</tw-passagedata><tw-passagedata pid="3" name="dodge truncheon" tags="" position="725.9999999999999,597.6666666666666" size="100,100">Your head sways back as the truncheon approaches and it passes a hairs-breadth from your chin, close enough to feel an exhilarating spark of electricity. The acrid smell of ozone follows in its wake as the weapon keeps swinging and the guard, now overbalanced, leaves himself dangerously exposed.
 
-For the first time you glance around, enough to see that you&#39;re both standing on a metal catwalk in what looks like some sort of warehouse. Looking down you see that you&#39;re wearing a simple grey tunic and pants, your feet are bare, and you&#39;re unarmed.
+For the first time you glance around, enough to see that you&#39;re both standing on a metal catwalk in what looks like some sort of warehouse. Looking down you see that you&#39;re wearing a simple grey bodyglove, your feet are bare, and you&#39;re unarmed.
 
 No matter. You&#39;re just as deadly with your hands as with any weapon.
 
@@ -86,7 +86,7 @@ Focusing your attention on the guard ascending the stairs, you take a deep breat
 (set: $SecondGuardAlive to false)</tw-passagedata><tw-passagedata pid="10" name="coming up stairs" tags="" position="2107,809.6666666666667" size="100,100">(if: $SniperAlive is true)[Without breaking stride your left hand closes around the handrail to take your weight, your left leg swings up and out, and with one push the rest of your body is soaring feet-first, angling toward the guard rushing across the landing. He looks up and you make eye contact as you twist your body midair, aiming to land...](else:)[You briefly arc up, then gravity grasps you in its fist and you&#39;re falling feet-first toward the guard below you. He looks up and you make eye contact at the last moment as your body twists so that you&#39;ll land...]
 
 [[...on top of him.-&gt;land on top of guard]]
-[[...in front of him.-&gt;land in front of guard]]</tw-passagedata><tw-passagedata pid="11" name="go after sniper" tags="" position="1934,790.6666666666667" size="100,100">(if: $SecondGuardAlive is true)[Looking for the quickest way across, your gaze goes to the two rows of lumen strips dangling from the ceiling, both running parallel to the catwalks. Without the slightest hesitation you bound up onto the handrail and, using it as a springboard, leap for the nearest lumen. ]Your extended left hand closes around the side of the strip, and for a single heart-stopping moment you wonder if it will hold your weight, but then you&#39;re swinging and all you can focus on is getting to the sniper before he shoots(if: $SecondGuardAlive is false)[ again].
+[[...in front of him.-&gt;land in front of guard]]</tw-passagedata><tw-passagedata pid="11" name="go after sniper" tags="" position="1934,790.6666666666667" size="100,100">(if: $SecondGuardAlive is true)[Looking for the quickest way across, your gaze goes to the two rows of lumen strips dangling from the ceiling, both running parallel to the catwalks. Without the slightest hesitation you bound up onto the handrail and, using it as a springboard, leap for the nearest lumen. ]Your extended left hand closes around the side of the strip and for a single heart-stopping moment you wonder if it will hold your weight, but then you&#39;re swinging and all you can focus on is getting to the sniper before he shoots(if: $SecondGuardAlive is false)[ again].
 
 You release the lumen(if: $BloodyFingersLeft is true)[, leaving a bloody handprint behind,] as you complete the swing and continue out into the open space, your right hand reaching out to catch hold of the strip in front of you. (if: $FarinFalls is true)[Your eyes flicker down as you grab hold and you see Farin&#39;s body on the floor beneath you, his head at an unnatural angle.]
 
@@ -95,7 +95,7 @@ You brachiate on the second lumen and then, in the millisecond before you let go
 [[Go for the larger target. Hit the crate and drive it back into him.-&gt;aim foot at box]]
 [[Hitting the crate won&#39;t kill him. Aim for his head.-&gt;aim foot at head]]
 
-</tw-passagedata><tw-passagedata pid="12" name="look at surroundings" tags="" position="1706,778.6666666666667" size="100,100">The hair on the back of you neck stands up as your gaze sweeps around the warehouse, taking in as many details as you can during the brief respite. To your right a shelf runs alongside the catwalk, a few meters separating the handrail from the front of the crates stacked alongside one another down its length. The crates along the shelf tower over you by several meters and, aside from a serial number stenciled on the front of each, are all identical.
+</tw-passagedata><tw-passagedata pid="12" name="look at surroundings" tags="" position="1706,778.6666666666667" size="100,100">The hair on the back of you neck stands up as your gaze sweeps around the warehouse, taking in as many details as you can during the brief respite. To your right a shelf runs alongside the catwalk, a few meters separating the handrail from the front of the crates stacked alongside one another down its length. The crates along the shelf tower over you by several meters and, aside from a serial number stenciled on the front, are all identical.
 
 (if: $DodgeTruncheon is true)[Ranks of lumen strips dangling from a corrugated ceiling bathe the interior of the warehouse in a harsh, white light. ]To your left, across the open space, another catwalk runs along the opposite wall parallel to the one you&#39;re standing on. A small landing midway down the catwalk has several small crates stacked haphazardly against one another as though tossed there without concern.
 
@@ -107,7 +107,7 @@ Finally, for the first time you glance behind you, back down the catwalk where y
 
 A gleam of chrome and profusion of cabling peeks out from within the crate, and for the briefest moment you feel an intense homesickness, but the feeling passes so fast that you&#39;re not even sure it was ever there to begin with.
 
-The hair on the back of your neck stands up again as your eyes are subconsciously drawn back to the landing on the opposite catwalk and the crates that seem to be tossed there randomly. Why? What is it about those crates that seems important?
+The hair on the back of your neck stands up again as your eyes are unconsciously drawn back to the landing on the opposite catwalk and the crates that seem to be tossed there randomly. Why? What is it about those crates that seems important?
 
 Looking closer, you notice that their arrangement forms a shadowed nexus right at their heart, the only spot in the warehouse you can see where the light isn&#39;t penetrating. Their placement too convenient to be a coincidence, you realize that landing would be the perfect spot for--
 
@@ -196,7 +196,7 @@ You force that thought aside contemptuously. In your clade, there&#39;s no room 
 
 (set: $SniperAdvantage to $SniperAdvantage + 1)
 (set: $CrushWrist to 2)
-</tw-passagedata><tw-passagedata pid="22" name="gloat" tags="" position="1117,892.6666666666667" size="100,100">You lean in slightly, lips parting in a rictus grin, as Farin&#39;s mouth mimics a fish gulping for air. You increase the pressure on his wrist until you can feel the bones begin to grind together, then squeeze a touch harder just for good measure. The pain you see reflected on his face sends a wave of pleasure radiating out from the center of your skull.
+</tw-passagedata><tw-passagedata pid="22" name="gloat" tags="" position="1117,892.6666666666667" size="100,100">You lean in slightly, lips parting in a rictus grin, as Farin mimics a fish gulping for air. You increase the pressure on his wrist until you can feel the bones begin to grind together, then squeeze a touch harder just for good measure. The pain you see reflected on his face sends a wave of pleasure radiating out from the center of your skull.
 
 Movement from below catches your eye, and to your surprise you see Farin&#39;s left hand, balled into a fist, swinging up at you. What does he hope to accomplish with such a futile gesture? It&#39;s nearly enough to make you laugh, and it takes almost no effort at all to...
 
@@ -226,7 +226,7 @@ And you know that where there is one guard, there will be others.
 
 For the first time you glance around, enough to see that you&#39;re both standing on a catwalk in what appears to be some sort of warehouse. Ranks of lumen strips dangling from a corrugated ceiling bathe the interior in a harsh, white light. Various-sized crates and containers line the walls and stack neatly upon one another.
 
-Looking down, you see that you&#39;re wearing a simple grey tunic and pants, your feet are bare, and you&#39;re unarmed.
+Looking down, you see that you&#39;re wearing a simple grey bodyglove, your feet are bare, and you&#39;re unarmed.
 
 No matter. You&#39;re just as deadly with your hands as with any weapon.
 
@@ -342,7 +342,7 @@ Version 1.0]]
 
 For the first time you glance around, enough to see that you&#39;re standing on a metal catwalk in what looks like some sort of warehouse. Ranks of lumen strips dangling from a corrugated ceiling bathe the interior in a harsh, white light. Various-sized crates and containers line the walls and stack neatly upon one another.
 
-Looking down you see that you&#39;re wearing a simple grey tunic and pants, your feet are bare, and you&#39;re unarmed.
+Looking down you see that you&#39;re wearing a simple grey bodyglove, your feet are bare, and you&#39;re unarmed.
 
 No matter. You&#39;re just as deadly with your hands as with any weapon.
 
@@ -357,7 +357,7 @@ A slight shift and Farin eye&#39;s are on your right hand, already pistoning tow
 
 Without conscious thought your right hand opens, palm toward Farin, as you shift your weight onto your right foot, drop your shoulder slightly, and [[put every kilogram of your bulk into the shot.-&gt;strike face]]</tw-passagedata><tw-passagedata pid="35" name="Farin falls" tags="" position="1553,687.6666666666666" size="100,100">A truncated yelp rings through the warehouse as Farin (if: $TakeTruncheon is true)[follows his truncheon to the floor](else:)[falls], loud enough to alert anyone else present. And you know from experience that where there is one guard, there will be others.
 
-Pounding footsteps sound from further down the catwalk, where another guard in the same uniform as Farin is charging toward you. He&#39;s at the other end of the catwalk, a dozen meters away at least, and like Farin seems to be moving in slow motion.
+Movement further down the catwalk draws your eye, where another guard in the same uniform as Farin is charging toward you. He&#39;s at the other end of the catwalk, a dozen meters away at least, and like Farin seems to be moving in slow motion.
 
 Why don&#39;t you recognize his uniform? What are they guarding?
 
@@ -371,7 +371,7 @@ Farin&#39;s eyes shift to the hand rocketing toward his face as you dispassionat
 
 Without conscious thought your right hand opens, palm toward Farin, as you shift your weight onto your right foot, drop your shoulder slightly, and [[put every kilogram of your bulk into the shot.-&gt;strike face]]</tw-passagedata><tw-passagedata pid="37" name="aim foot at head" tags="" position="1633.3333333333333,930.0000000000001" size="100,100">You let go of the lumen and draw your right leg up at the same time, concentrating all of your momentum on the heel of your left foot, aimed directly at the sniper&#39;s visible eye. At the very last instant he jerks his head away from his rifle and instead of a clean hit your heel grazes his cheek.
 
-But you&#39;d observed that the guard was in a right-hand stance, and you&#39;d anticipated that if he tried to dodge he would move away from his gun. That&#39;s why you cocked your right leg back, and indeed his face is now directly in line with your right foot.
+But you&#39;d observed that the sniper was in a right-hand stance, and you&#39;d anticipated that if he tried to dodge he would move away from his gun. That&#39;s why you cocked your right leg back, and indeed his face is now directly in line with your right foot.
 
 Before he can dodge a second time your foot pistons out, aimed squarely at his...
 
@@ -385,7 +385,7 @@ He drops into a crouch, feints low, then stabs directly up at your neck, fast en
 [[...to the right.-&gt;dodge knife wrong way]]
 [[...to the left.-&gt;dodge knife right way]]</tw-passagedata><tw-passagedata pid="39" name="kick his face" tags="" position="1829,921.6666666666667" size="100,100">You see the guard&#39;s eyes widen for a split second before your heel collides with the bridge of his nose. There&#39;s a crack as his head folds back and with the sound of twigs snapping the vertebrae in his neck shatter. Catching hold of a crate to stop yourself, you roll into a crouch as the guard [[collapses to the grated floor.-&gt;sniper dead]]
 
-(set: $KickSniper to true)</tw-passagedata><tw-passagedata pid="40" name="kick his shoulder" tags="" position="1755,1043.6666666666667" size="100,100">Your foot collides with the guard&#39;s shoulder, spinning him around and knocking him prone as you crash to the floor. He rolls back to his feet with surprising agility as you find your footing. Shoving aside the remaining crates that made up the nest, you rise to your full height as the guard discards his rifle and pulls out a combat knife in one smooth motion.
+(set: $KickSniper to true)</tw-passagedata><tw-passagedata pid="40" name="kick his shoulder" tags="" position="1755,1043.6666666666667" size="100,100">Your foot collides with the sniper&#39;s shoulder, spinning him around and knocking him prone as you crash to the floor. He rolls back to his feet with surprising agility as you find your footing. Shoving aside the remaining crates that made up the nest, you rise to your full height as the guard discards his rifle and pulls out a combat knife in one smooth motion.
 
 Your eyes meet, and you see a man much older and more experienced than the inept Farin. There&#39;s no fear or panic in this man&#39;s gaze, only a grim determination to do whatever is necessary.
 
@@ -405,7 +405,7 @@ Thank you for playing Chapter One of Ever Soaring! Please join me on Discord to 
 [[...give it another shot (restart).-&gt;title]]
 (link: &quot;...allow the blackness to take you (quit).&quot;)[(goto-url: &quot;https://mattocreates.github.io/&quot;)]</tw-passagedata><tw-passagedata pid="44" name="grab sniper&#39;s wrist" tags="" position="2233,1168.6666666666667" size="100,100">Your fingers close around his wrist and before he can react you&#39;ve twisted it, bending his arm back around so that the knife is pointed directly at his chest. Shouldering him up against a crate, you angle the blade toward his heart as he struggles futilely beneath you. 
 
-The guard is strong, but not nearly strong enough. (if: $SecondGuardAlive is true)[Centimeter by centimeter](else:)[Slowly], the knife slides through the air until it pierces his uniform and then his flesh. Staring into his eyes as he grimaces and lets out a grunt, you relish the thought of the agony you could inflict by going nice and slow.
+The guard is strong, but not nearly strong enough. (if: $SecondGuardAlive is true)[Centimeter by centimeter](else:)[Slowly], the knife slides through the air until it pierces his uniform and then his flesh. Staring into his eyes as he grimaces, you relish the thought of the agony you could inflict by going nice and slow.
 
 (if: $ThirdGuardAlive is true)[But there&#39;s still the other guard(if: $SecondGuardAlive is true)[s] to consider, so you&#39;d better not waste any more time. With one sudden shove you plunge the knife hilt-deep into his chest, then yank it back out as he slumps to the floor. He lets out a single pained moan before [[falling silent.-&gt;sniper dead]]](else:)[Lips parting to reveal dagger-like teeth, you grin at the guard as the knife skewers him millimeter by agonizing millimeter. His struggles first intensify, then turn panicky and weak as his strength gives way. Refusing to break your gaze, the guard glares at you hatefully with teeth clenched together, a single pained moan escaping his lips. Only when he&#39;s lying still do you remove the knife from his chest and [[stand back up.-&gt;sniper dead]]]
 
@@ -415,21 +415,21 @@ He makes one futile attempt to jerk his head away at the last moment, but it&#39
 
 He falls back against a crate, then slumps to the floor. Another clean kill, another wave of pleasure washing through your skull, only to be supplanted by the throbbing pain a [[moment later.-&gt;sniper dead]]
 
-(set: $PunchSniper to true)</tw-passagedata><tw-passagedata pid="46" name="land on top of guard" tags="" position="2280,842.6666666666667" size="100,100">Your gaze locked on his, you land on top of the guard with both feet squarely in the center of his chest. A rush of emotions flash across his eyes in the moment before you make contact, shock, panic, fear, but most of all a disbelief that this could actually be happening.
+(set: $PunchSniper to true)</tw-passagedata><tw-passagedata pid="46" name="land on top of guard" tags="" position="2281.6666666666665,842.6666666666667" size="100,100">Your gaze locked on his, you land on top of the guard with both feet squarely in the center of his chest. A rush of emotions flash across his eyes in the moment before you make contact, shock, panic, fear, but most of all a disbelief that this could actually be happening.
 
-Then he&#39;s crumpling beneath your bulk, crying out as he&#39;s driven back and down to the grated landing. His ribs snap like twigs and his organs are pulped to mush as you land on top of him, and after one juttering spasm he falls still.
+Then he&#39;s crumpling beneath your bulk, crying out as he&#39;s driven back and down to the grated landing. His ribs snap like twigs and his organs are mashed to pulp as you land on top of him, and after one juttering spasm he falls still.
 
-(if: $SecondGuardAlive is true)[You rise and turn around to see that the guard on the catwalk above you has reached the top of the stairs. His arm still extended with the truncheon ready to swing, he begins bounding down the stairs three at a time.
+(if: $SecondGuardAlive is true)[You rise and turn around to see that the guard on the catwalk above you has reached the top of the stairs. His arm still extended with the truncheon ready to swing, he begins bounding down the steps three at a time.
 
-Without hesitation, you [[rush up the steps to meet him.-&gt;charge up stairs]]](else:)[Rising to your feet, you [[look around the warehouse to see there are any more guards.-&gt;all guards dead]]]
+Without hesitation, you [[rush up to meet him.-&gt;charge up stairs]]](else:)[Rising to your feet, you [[look around the warehouse to see there are any more guards.-&gt;all guards dead]]]
 
 (set: $ThirdGuardAlive to false)</tw-passagedata><tw-passagedata pid="47" name="land in front of guard" tags="" position="2241,702.6666666666666" size="100,100">You crash onto the landing in a crouch less than a meter in front of the guard, who tries to skid to a stop but barrels into you anyway. One hard shove as you burst to your feet and the guard is flying back, his arms pinwheeling as he falls down the stairs he just rushed up.
 
 As he pitches over backward, you make eye contact with him once again and you see a rush of emotions play across his face. Shock, panic, fear, but most of all a disbelief that this could actually be happening. Then he&#39;s gone, a brief scream leaving his lips before the back of his head slams into the stairs, and you dispassionately watch as his broken body tumbles the rest of the way down to lie still on the landing below.
 
-(if: $SecondGuardAlive is true)[Turning around, you see that the guard on the catwalk above you has reached the top of the stairs. His arm still extended with the truncheon ready to swing, he begins bounding down the stairs three at a time.
+(if: $SecondGuardAlive is true)[Turning around, you see that the guard on the catwalk above you has reached the top of the stairs. His arm still extended with the truncheon ready to swing, he begins bounding down the steps three at a time.
 
-Without hesitation, you [[rush up the steps to meet him.-&gt;charge up stairs]]](else:)[With a deep breath you [[look around the warehouse to see there are any more guards.-&gt;all guards dead]]]
+Without hesitation, you [[rush up to meet him.-&gt;charge up stairs]]](else:)[With a deep breath you [[look around the warehouse to see there are any more guards.-&gt;all guards dead]]]
 
 (set: $ThirdGuardAlive to false)</tw-passagedata><tw-passagedata pid="48" name="charge up stairs" tags="" position="2431,630.6666666666666" size="100,100">You surge up the stairs with a roar to meet the guard midway, dropping your shoulder at the last moment to crash into his chest. Realizing too late that you don&#39;t mean to stop, he&#39;s powerless to prevent you from slamming into him and lifting him into the air.
 
@@ -462,7 +462,9 @@ The man on the left is swathed in thick crimson robes, and all that&#39;s visibl
 
 The corridor itself offers no help, its bare walls and floor providing no cover or protection.
 
-Your only hope is to [[charge down the hallway.-&gt;charge down hallway]]</tw-passagedata><tw-passagedata pid="54" name="charge down hallway" tags="" position="2615,826.6666666666667" size="100,100">You accelerate to full speed in less than a heartbeat, your feet pounding against the floor and your arms pistoning. Quicker than you thought possible, quicker even than //you//, the man in power armor pivots and smoothly brings up his pistol.
+Your only hope is to [[charge down the hallway.-&gt;charge down hallway]]</tw-passagedata><tw-passagedata pid="54" name="charge down hallway" tags="" position="2615,826.6666666666667" size="100,100">You accelerate to full speed in less than a heartbeat, your feet pounding against the floor and your arms pistoning.
+
+Quicker than you thought possible, quicker even than //you//, the man in power armor pivots and smoothly brings up his pistol.
 
 [[FASTER.-&gt;run faster]]</tw-passagedata><tw-passagedata pid="55" name="run faster" tags="" position="2741,761.6666666666667" size="100,100">His finger begins squeezing the trigger.
 
@@ -483,7 +485,7 @@ Thunderheads appear on the horizon, ominous black clouds that tower into the sky
 
 The downpour intesifies as you struggle to draw breath, and you begin to choke as the rain forces its way into your mouth and up your nostrils.
 
-You struggle, trying to suck in breath, but you&#39;re suffocating, you&#39;re drowning, [[you&#39;re---&gt;come back aware]]</tw-passagedata><tw-passagedata pid="58" name="come back aware" tags="" position="2560,521.6666666666666" size="100,100">...in a tank filled with a warm, viscous fluid. A mask covers the lower half of your face, a cool trickle of air feeding from its hose. Peering through the clear access panel in front of you is the man in crimson robes, his cowl pushed back to reveal a polished steel simulacrum of a face. His eyes whir as he steps back, and behind him you see the man in power armor looming with ominous intention.
+You struggle, trying to suck in breath, but you&#39;re suffocating, you&#39;re drowning, [[you&#39;re---&gt;come back aware]]</tw-passagedata><tw-passagedata pid="58" name="come back aware" tags="" position="2560,518.3333333333333" size="100,100">...in a tank filled with a warm, viscous fluid. A mask covers the lower half of your face, a cool trickle of air feeding from its hose. Peering through the clear access panel in front of you is the man in crimson robes, his cowl pushed back to reveal a polished steel simulacrum of a face. His eyes whir as he steps back, and behind him you see the man in power armor looming with ominous intention.
 
 You instinctively try to reach out, but nothing happens. After a moment you realize you can&#39;t feel anything below your neck, and unbidden, the word //^^(...paralytics...)^^// floats through your subconscious.
 
@@ -495,7 +497,7 @@ Blinking lethargically, you turn your attention back to the chrome-faced man in 
 
 &quot;//...acceptable losses...//&quot;
 
-Turning your gaze back to the man in power armor, you stare levelly into the burning red eye slits until you hear the words you&#39;d been waiting for.
+Turning your gaze back to the man in power armor, you stare levelly into the burning red eye slits until you hear the words you&#39;ve been waiting for.
 
 &quot;//...transit to your next mission.&quot;//
 
@@ -503,7 +505,7 @@ The robed man tells you that the details will be provided en route in the usual 
 
 //^^(...The Emperor Protects...)^^// 
 
-The last thing you see before everything fades to black is angry red eye slits boring a hole through you.
+The last thing you see before everything fades to black is a pair of angry red eye slits boring a hole through you.
 
 [[...And then, you&#39;re soaring.-&gt;the end]]</tw-passagedata><tw-passagedata pid="59" name="the end" tags="" position="2362,440.66666666666663" size="100,100">Thank you for playing Ever Soaring, Chapter One. I hope you enjoyed reading the story and all its various paths as much as I enjoyed writing it. 
 
